@@ -14,7 +14,7 @@ namespace Notes
             InitializeComponent();
 
             
-            MainPage = new NotesPage();
+            MainPage = new MainPage();
         }
 
         protected override void OnStart()

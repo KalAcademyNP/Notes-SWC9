@@ -4,9 +4,9 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="Notes.Views.NotesPage"
-             Title="Notes">
-    <StackLayout Margin="20">
+             x:Class="Notes.Views.NoteEntryPage"
+             Title="Note Entry">
+    <StackLayout Margin="20" >
         <Editor x:Name="editor"
                 Placeholder="Enter your note"
                 HeightRequest="100" />
